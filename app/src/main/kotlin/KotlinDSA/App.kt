@@ -3,6 +3,8 @@
  */
 package KotlinDSA
 
+import KotlinDSA.linkedList.LinkedList
+
 class App {
     val greeting: String
         get() {
@@ -11,8 +13,10 @@ class App {
 }
 
 fun main() {
+    val list = LinkedList<String>()
+    list.push("meatball").append("turkey").append("ham").append("bacon")
+    println(list.toString())
 
 
 
-    println(App().greeting)
 }
