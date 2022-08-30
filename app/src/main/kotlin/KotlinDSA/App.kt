@@ -3,6 +3,7 @@
  */
 package KotlinDSA
 
+import KotlinDSA.leetcode.TwoSum
 import KotlinDSA.linkedList.LinkedList
 
 class App {
@@ -13,9 +14,8 @@ class App {
 }
 
 fun main() {
-    val list = LinkedList<String>()
-    list.push("meatball").append("turkey").append("ham").append("bacon")
-    println(list.toString())
+   TwoSum.twoSumMethod(intArrayOf(10, 20, 30, 40, 50),50)
+
 
 
 
